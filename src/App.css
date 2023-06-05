@@ -349,7 +349,7 @@ p::selection {
 }
 
 /* About me */
-#aboutMe {
+#about {
   height: 100vh;
   /* background-color: rgba(35, 35, 36, 0.972); */
   background-color: #222324;
@@ -357,12 +357,12 @@ p::selection {
   overflow: hidden;
 }
 
-#aboutMe * {
+#about * {
   transition: all 400ms ease-in-out;
 }
 
 /* About me heading */
-#aboutMe > h2:nth-child(1) {
+#about > h2:nth-child(1) {
   text-align: center;
   margin: 50px 0px -50px;
   letter-spacing: 1px;
@@ -370,12 +370,12 @@ p::selection {
 }
 
 /* svg */
-#aboutMe > div:nth-child(2) > div:nth-child(1) {
+#about > div:nth-child(2) > div:nth-child(1) {
   width: 50%;
   margin-left: 100px;
 }
 
-#aboutMe > div:nth-child(2) > div:nth-child(2) {
+#about > div:nth-child(2) > div:nth-child(2) {
   height: 100%;
   width: 40%;
   margin-inline: auto;
@@ -385,18 +385,18 @@ p::selection {
   gap: 50px;
 }
 /* my image and desc part */
-#aboutMe > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > svg {
+#about > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > svg {
   display: none;
 }
 
-#aboutMe > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > p {
+#about > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > p {
   text-align: justify;
   letter-spacing: 1.5px;
   font-style: oblique;
   font-size: 20px;
 }
 
-#aboutMe .aboutImg img {
+#about .aboutImg img {
   width: 40vw;
 }
 
@@ -660,7 +660,7 @@ hr {
 }
 
 /* Contact-me */
-#contactMe {
+#contact {
   /* position: relative;
     z-index: 1201; */
   margin-top: 50px;
@@ -674,21 +674,21 @@ hr {
   /* box-shadow: rgba(171, 171, 171, 0.1) 0px 4px 6px -1px, rgba(222, 220, 220, 0.06) 0px 2px 4px -1px; */
 }
 
-#contactMe * {
+#contact * {
   transition: all 400ms ease-in-out;
 }
 
-#contactMe > h2 {
+#contact > h2 {
   margin: 20px auto;
   letter-spacing: 1px;
 }
 
-#contactMe > div:nth-child(2) {
+#contact > div:nth-child(2) {
   gap: 20%;
 }
 
 /* svg box */
-#contactMe > div:nth-child(2) > div:nth-child(1) {
+#contact > div:nth-child(2) > div:nth-child(1) {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -863,20 +863,20 @@ hr {
   /* about-me >
      svg */
 
-  #aboutMe > div:nth-child(2) > div:nth-child(1) {
+  #about > div:nth-child(2) > div:nth-child(1) {
     display: none;
   }
 
-  #aboutMe > div:nth-child(2) > div:nth-child(2) {
+  #about > div:nth-child(2) > div:nth-child(2) {
     width: 90%;
   }
 
-  #aboutMe > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > svg {
+  #about > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > svg {
     display: block;
   }
 
   /* contect me */
-  #contactMe > div:nth-child(2) > div:nth-child(1) {
+  #contact > div:nth-child(2) > div:nth-child(1) {
     width: 600px;
   }
 
@@ -884,7 +884,7 @@ hr {
     width: 350px;
   }
 
-  #contactMe > div:nth-child(2) {
+  #contact > div:nth-child(2) {
     gap: 5%;
   }
 }
@@ -918,16 +918,16 @@ hr {
   }
 
   /* about me */
-  #aboutMe > div:nth-child(2) > div:nth-child(1) {
+  #about > div:nth-child(2) > div:nth-child(1) {
     display: none;
   }
 
-  #aboutMe > div:nth-child(2) > div:nth-child(2) {
+  #about > div:nth-child(2) > div:nth-child(2) {
     width: 90%;
   }
 
   /* Profile pic */
-  #aboutMe > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > img {
+  #about > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > img {
     height: 200px;
     width: 200px;
   }
@@ -946,7 +946,7 @@ hr {
     width: 90%;
   }
 
-  #contactMe > div:nth-child(2) > div:nth-child(1) {
+  #contact > div:nth-child(2) > div:nth-child(1) {
     width: 90%;
   }
 }
@@ -983,15 +983,15 @@ hr {
   }
 
   /* about me */
-  #aboutMe > h2:nth-child(1) {
+  #about > h2:nth-child(1) {
     margin: 50px 0px -50px;
   }
 
-  #aboutMe > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > svg {
+  #about > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > svg {
     display: none;
   }
 
-  #aboutMe > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > p {
+  #about > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > p {
     text-align: justify;
     letter-spacing: 1px;
   }
@@ -1059,15 +1059,15 @@ hr {
     font-size: 10px !important;
   }
 
-  #contactMe > div:nth-child(2) {
+  #contact > div:nth-child(2) {
     gap: 50px;
   }
 
-  #contactMe > div:nth-child(2) {
+  #contact > div:nth-child(2) {
     width: 100%;
   }
 
-  #contactMe > div:nth-child(2) > div:nth-child(1) {
+  #contact > div:nth-child(2) > div:nth-child(1) {
     width: 85%;
   }
 

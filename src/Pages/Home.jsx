@@ -210,7 +210,7 @@ const Home = () => {
             <hr></hr>
 
             {/* Contact me */}
-            <Box id='contactMe'>
+            <Box id='contact'>
                 <Heading textAlign="center">Contact <span className='themeText'>Me</span></Heading>
                 <Flex flexDirection={["column", "column", "column", "row"]} alignItems="center">
 

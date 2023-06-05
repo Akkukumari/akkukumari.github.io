@@ -26,7 +26,7 @@ const Navbar = () => {
                     <Button><Link href="#"><span>Home</span></Link></Button>
                 </Box>
                 <Box>
-                    <Button><Link href="#aboutMe"><span>About me</span></Link></Button>
+                    <Button><Link href="#about"><span>About me</span></Link></Button>
                 </Box>
                 <Box>
                     <Button><Link href="#skills"><span>Skills</span></Link></Button>
@@ -38,7 +38,7 @@ const Navbar = () => {
                     <Button onClick={()=>{window.open("https://drive.google.com/file/d/1SNaSntIlnT9VgMg_zyhagyw7Br740a4s/view?usp=sharing", '_blank')}}><a href={Resume} download="Akanksha-Kumari-Resume"><span>Resume</span></a></Button>
                 </Box>
                 <Box>
-                    <Button><Link href="#contactMe"><span>Contact</span></Link></Button>
+                    <Button><Link href="#contact"><span>Contact</span></Link></Button>
                 </Box>
             </Box>
             <Button ref={btnRef} display={["block", 'block', 'block', 'none']} onClick={() => {
@@ -72,11 +72,11 @@ const Navbar = () => {
 
                     <DrawerBody>
                         <Box><Link href='#' onClick={() => onClose()}>Home</Link></Box>
-                        <Box><Link href='#aboutMe' onClick={() => onClose()}>About me</Link></Box>
+                        <Box><Link href='#about' onClick={() => onClose()}>About me</Link></Box>
                         <Box><Link href='#skills' onClick={() => onClose()}>Skills</Link></Box>
                         <Box><Link href='#projects' onClick={() => onClose()}>Projects</Link></Box>
                         <Box><Link href='#resume' onClick={() => onClose()}>Resume</Link></Box>
-                        <Box><Link href='#contactMe' onClick={() => onClose()}>Contact</Link></Box>
+                        <Box><Link href='#contact' onClick={() => onClose()}>Contact</Link></Box>
                     </DrawerBody>
                 </DrawerContent>
             </Drawer>
