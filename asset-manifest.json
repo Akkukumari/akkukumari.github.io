@@ -1,16 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.3af1cc63.js",
+    "main.css": "/static/css/main.da4c5da3.css",
+    "main.js": "/static/js/main.6146c151.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/snapdealVideo.mp4": "/static/media/snapdealVideo.c614256f9432752f444e.mp4",
+    "static/media/ModesenVideo.mp4": "/static/media/ModesenVideo.e8e7d7cd21652ef31508.mp4",
+    "static/media/Travelwithus.mp4": "/static/media/Travelwithus.c48f2cd1dba201d1253b.mp4",
+    "static/media/Akanksha-Kumari-Resume.pdf": "/static/media/Akanksha-Kumari-Resume.0d9fddca96604ca7e495.pdf",
+    "static/media/aboutImg.png": "/static/media/aboutImg.a0f12ad1858a3bf5b350.png",
+    "static/media/homeImg.png": "/static/media/homeImg.9cb4d1f85adb7efcfc60.png",
+    "static/media/favicon.png": "/static/media/favicon.877f850414db61caa2c9.png",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.3af1cc63.js.map": "/static/js/main.3af1cc63.js.map",
+    "main.da4c5da3.css.map": "/static/css/main.da4c5da3.css.map",
+    "main.6146c151.js.map": "/static/js/main.6146c151.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.3af1cc63.js"
+    "static/css/main.da4c5da3.css",
+    "static/js/main.6146c151.js"
   ]
 }
