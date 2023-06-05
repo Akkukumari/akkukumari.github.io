@@ -93,7 +93,7 @@ const Home = () => {
 
             {/* About me */}
 
-            <Box id="aboutMe">
+            <Box id="about">
                 <Heading>About <span className='themeText'>me</span></Heading>
                 <Flex flexDirection={['column-reverse', 'column-reverse', 'column-reverse', 'row']} alignItems="center" h="100%">
                    
