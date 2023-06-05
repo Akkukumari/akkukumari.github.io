@@ -21,7 +21,7 @@ const Navbar = () => {
                     <Heading>  Akanksha Kumari</Heading>
                 </Box>
             </Box>
-            <Box display={["none", 'none', 'none', 'flex']} className="nav-options">
+            <Box display={["none", 'none', 'none', 'flex']} className="nav-options" id="nav-menu">
                 <Box>
                     <Button><Link href="#"><span>Home</span></Link></Button>
                 </Box>
