@@ -148,7 +148,7 @@ const Home = () => {
 
       {/* About me */}
 
-      <Box id="about">
+      <Box id="about" className="about section">
         <Heading>
           About <span className="themeText">me</span>
         </Heading>
