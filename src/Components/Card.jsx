@@ -20,33 +20,35 @@ const ProjectCard = ({
   techStack,
   github,
   liveDemo,
-  project
+  project,
 }) => {
   return (
-    <Flex flexDirection="column" className="ProjectCard">
+    <Flex flexDirection="column" className="ProjectCard project-card">
       <Box className="cardImg" />
       <video src={video} autoPlay="autoplay" muted loop></video>
       <Box>
         <Flex>
-          <Heading size="md">{title}</Heading>
+          <Heading className="project-title" size="md">
+            {title}
+          </Heading>
           <Badge variant="outline" colorScheme="green">
             {type}
           </Badge>
         </Flex>
-        <Text>
+        <Text className="project-tech-stack">
           <span style={{ fontWeight: 700 }}>Tech Stacks:</span>{" "}
           {techStack.join(", ")}
         </Text>
-        <Text>{description}</Text>
+        <Text className="project-description">{description}</Text>
       </Box>
       <Box>
         <HStack>
-          <Link href={liveDemo} target="_blank">
+          <Link className="project-deployed-link" href={liveDemo} target="_blank">
             <Button>
               Live Demo <BiLinkExternal />
             </Button>
           </Link>
-          <Link href={github} target="_blank">
+          <Link className="project-github-link" href={github} target="_blank">
             <Button>
               {" "}
               Code Base <VscGithub />
