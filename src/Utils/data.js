@@ -1,6 +1,10 @@
-import snapdealVideo from "../Images/assets/snapdealVideo.mp4";
-import ModesenVideo from "../Images/assets/ModesenVideo.mp4";
-import Travelwithus from "../Images/assets/Travelwithus.mp4";
+// import snapdealVideo from "../Images/assets/snapdealVideo.mp4";
+// import ModesenVideo from "../Images/assets/ModesenVideo.mp4";
+// import Travelwithus from "../Images/assets/Travelwithus.mp4";
+
+import snapdeal from "../Images/assets/snapdeal.png";
+import modesen from "../Images/assets/Modeson.png";
+import travelwithus from "../Images/assets/Travelwithus.png";
 export const skills = [
     {
         icon: "https://cdn-icons-png.flaticon.com/512/174/174854.png",
@@ -85,7 +89,9 @@ export const projects = [
         id: 1,
         title: "Snapdeal",
         type: "E-COMMERCE",
-        video:snapdealVideo,
+        // video:snapdealVideo,
+        // image:"https://drive.google.com/file/d/1ji_dyuAg6R1yfDjL8wQg-9XSyDa00eC_/view?usp=sharing",
+        image:snapdeal,
         description: "Snapdeal is an e-commerce website, where user can purchase across different categories such as clothing, kitchen accessories, footware, toys, makeup,etc ",
         techStack: ["HTML", "CSS", "JavaScript"],
         github: "https://github.com/Akkukumari/terrific-language-9890",
@@ -95,7 +101,8 @@ export const projects = [
         id: 2,
         title: "Modesen",
         type: "E-COMMERCE",
-        video:ModesenVideo,
+        // video:ModesenVideo,
+        image:modesen,
         description: "Modesen is an e-commerce platform for dealing with the sale of clothing, fashion, and styling accesoories.",
         techStack: ["HTML", "CSS", "JavaScript","React", "Redux", "chakra-ui",],
         github: "https://github.com/Akkukumari/taboo-lock-5540",
@@ -104,8 +111,20 @@ export const projects = [
     {
         id: 3,
         title: "Travelwithus!",
-        type: "OTT PLATFORM",
-        video:Travelwithus,
+        type: "E-COMMERCE",
+        // video:Travelwithus,
+        image: travelwithus,
+        description: "Travelwithus is an application to book one on one slot for interview and also to book bulk in interview. It can be accessable to the user side as well as admin side.",
+        techStack: ["HTML", "CSS","JavaScript", "React"],
+        github: "https://github.com/Akkukumari/travelwithus",
+        liveDemo: "https://647e2b1f0b8d1a080ffff486--playful-kelpie-34c937.netlify.app/"
+    },
+    {
+        id: 4,
+        title: "Travelwithus!",
+        type: "E-COMMERCE",
+        // video:Travelwithus,
+        image: travelwithus,
         description: "Travelwithus is an application to book one on one slot for interview and also to book bulk in interview. It can be accessable to the user side as well as admin side.",
         techStack: ["HTML", "CSS","JavaScript", "React"],
         github: "https://github.com/Akkukumari/travelwithus",
