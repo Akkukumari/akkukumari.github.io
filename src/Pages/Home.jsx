@@ -183,7 +183,7 @@ const Home = () => {
                 considerable technical skils in React.js. A quick learner with the ability to design
                 website, using MongoDB, Express.js, React, Node.js, JavaScript.  A focused and
                 efficient leraner with 1200+ hours of coding experience in web
-                development. */}
+                development.. */}
                 An enthusiastic Full-stack Developer, skilled in React.js. 
                 Developing websites using MongoDB, Expressjs, React, Nodejs, JavaScript. 
                 An optimistic person, always ready to take a critical decision, ready to work under pressure.
