@@ -28,7 +28,7 @@ import { projects, skills } from "../Utils/data";
 
 import ProjectCard from "../Components/Card";
 import Svg1 from "../Components/Svg1";
-import Svg2 from "../Components/Svg2";
+// import Svg2 from "../Components/Svg2";
 import Svg3 from "../Components/Svg3";
 import Slider from "react-slick";
 import Resume from "../Resume/Akanksha-Kumari-Resume.pdf";
@@ -179,13 +179,15 @@ const Home = () => {
 
             <Box>
               <Text id="user-detail-intro">
-                An ambitious and self-motivated full stack web developer with a
-                considerable technical skill who possesses self-discipline and
-                ability to work. A quick learner with the ability to design
-                website, user experience. A quick-learner who can absorb new
-                ideas and can communicate clearly and effectively. A focused and
+                {/* An ambitious and self-motivated Full-stack web Developer with a
+                considerable technical skils in React.js. A quick learner with the ability to design
+                website, using MongoDB, Express.js, React, Node.js, JavaScript.  A focused and
                 efficient leraner with 1200+ hours of coding experience in web
-                development.
+                development. */}
+                An enthusiastic Full-stack Developer, skilled in React.js. 
+                Developing websites using MongoDB, Expressjs, React, Nodejs, JavaScript. 
+                An optimistic person, always ready to take a critical decision, ready to work under pressure.
+                 Always ready to try some new things for optimization.
               </Text>
             </Box>
           </Flex>
