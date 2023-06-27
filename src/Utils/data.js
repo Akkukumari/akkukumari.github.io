@@ -5,6 +5,8 @@
 import snapdeal from "../Images/assets/snapdeal.png";
 import modesen from "../Images/assets/Modeson.png";
 import travelwithus from "../Images/assets/Travelwithus.png";
+import quesTyme from "../Images/assets/QuesTyme.png";
+
 export const skills = [
     {
         icon: "https://cdn-icons-png.flaticon.com/512/174/174854.png",
@@ -104,20 +106,20 @@ export const projects = [
         // video:ModesenVideo,
         image:modesen,
         description: "Modesen is an e-commerce platform for dealing with the sale of clothing, fashion, and styling accesoories.",
-        techStack: ["HTML", "CSS", "JavaScript","React", "Redux", "chakra-ui",],
+        techStack: ["HTML", "CSS", "JavaScript","React", "Redux", "chakra-UI",],
         github: "https://github.com/Akkukumari/taboo-lock-5540",
         liveDemo: "https://modesenbyak.netlify.app/"
     },
     {
         id: 3,
-        title: "Travelwithus!",
-        type: "E-COMMERCE",
+        title: "QuesTyme",
+        type: "Meet-Scheduler",
         // video:Travelwithus,
-        image: travelwithus,
-        description: "Travelwithus is an application to book one on one slot for interview and also to book bulk in interview. It can be accessable to the user side as well as admin side.",
-        techStack: ["HTML", "CSS","JavaScript", "React"],
-        github: "https://github.com/Akkukumari/travelwithus",
-        liveDemo: "https://647e2b1f0b8d1a080ffff486--playful-kelpie-34c937.netlify.app/"
+        image:quesTyme,
+        description: "QuesTyme is a interview scheduler application with features for interview scheduling and one-on-one sessions.",
+        techStack: ["HTML", "CSS","Chakra UI", "React","Redux", "TypeScript"],
+        github: "https://github.com/Akkukumari/QuesTyme",
+        liveDemo: "https://clever-horse-e88e52.netlify.app/"
     },
     {
         id: 4,

@@ -306,7 +306,8 @@ const Home = () => {
         <Center>
           <GitHubCalendar
             username="Akkukumari"
-            color="#4a8af4"
+            color="#ee0e7a"
+            // color="green"
             children={<ReactTooltip html />}
           />
         </Center>
