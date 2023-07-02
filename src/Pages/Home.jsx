@@ -124,7 +124,7 @@ const Home = () => {
               className="hireMe"
               onClick={() => {
                 window.open(
-                  "https://drive.google.com/file/d/1SNaSntIlnT9VgMg_zyhagyw7Br740a4s/view?usp=sharing",
+                  "https://drive.google.com/file/d/1QYmid4Wm8qmaHdVOcYF8YDK6PVcg_kY5/view?usp=sharing",
                   "_blank"
                 );
               }}
