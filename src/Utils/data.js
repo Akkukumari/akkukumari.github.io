@@ -6,6 +6,7 @@ import snapdeal from "../Images/assets/snapdeal.png";
 import modesen from "../Images/assets/Modeson.png";
 import travelwithus from "../Images/assets/Travelwithus.png";
 import quesTyme from "../Images/assets/QuesTyme.png";
+import todoapp from "../Images/assets/TodoApp.png";
 
 export const skills = [
     {
@@ -123,6 +124,17 @@ export const projects = [
     },
     {
         id: 4,
+        title: "TodoApp",
+        type: "Day Management",
+        // video:Travelwithus,
+        image: todoapp,
+        description: "TodoApp is a task management app to help you stay organized and manage your day-to-day.",
+        techStack: ["HTML", "CSS","JavaScript", "React", "Redux","MongoDB", "Node","Express"],
+        github: "https://github.com/Akkukumari/todoappfrontend",
+        liveDemo: "https://stupendous-lolly-5c34e5.netlify.app"
+    },
+    {
+        id: 5,
         title: "Travelwithus!",
         type: "E-COMMERCE",
         // video:Travelwithus,
@@ -132,4 +144,5 @@ export const projects = [
         github: "https://github.com/Akkukumari/travelwithus",
         liveDemo: "https://647e2b1f0b8d1a080ffff486--playful-kelpie-34c937.netlify.app/"
     }
+   
 ]
