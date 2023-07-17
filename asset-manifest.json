@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.5031ecb7.css",
-    "main.js": "/static/js/main.61c7c982.js",
+    "main.js": "/static/js/main.c13b76eb.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/snapdeal.png": "/static/media/snapdeal.b5f19b5980375d6d9670.png",
     "static/media/Travelwithus.png": "/static/media/Travelwithus.56cd48e87ebe09e9726e.png",
     "static/media/Modeson.png": "/static/media/Modeson.345443f8e9e5ad8f9b60.png",
     "static/media/Akanksha-Kumari-Resume.pdf": "/static/media/Akanksha-Kumari-Resume.0d9fddca96604ca7e495.pdf",
     "static/media/aboutImg.png": "/static/media/aboutImg.a0f12ad1858a3bf5b350.png",
+    "static/media/TodoApp.png": "/static/media/TodoApp.dfd70a50ef0c0aac7597.png",
     "static/media/QuesTyme.png": "/static/media/QuesTyme.0bb4886c6d80f8882246.png",
     "static/media/homeImg.png": "/static/media/homeImg.9cb4d1f85adb7efcfc60.png",
     "static/media/favicon.png": "/static/media/favicon.877f850414db61caa2c9.png",
@@ -17,11 +18,11 @@
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/index.html",
     "main.5031ecb7.css.map": "/static/css/main.5031ecb7.css.map",
-    "main.61c7c982.js.map": "/static/js/main.61c7c982.js.map",
+    "main.c13b76eb.js.map": "/static/js/main.c13b76eb.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5031ecb7.css",
-    "static/js/main.61c7c982.js"
+    "static/js/main.c13b76eb.js"
   ]
 }
