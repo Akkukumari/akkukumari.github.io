@@ -40,12 +40,30 @@ const Home = () => {
   const settings = {
     dots: false,
     infinite: false,
-    slidesToShow: matchMedia("(max-width: 425px)").matches
-      ? 1
-      : matchMedia("(max-width: 1024px)").matches
-      ? 2
-      : 3,
+    slidesToShow: 3,
     slidesToScroll: 1,
+    // slidesToShow: matchMedia("(max-width: 942px)").matches
+    //   ? 1
+    //   : matchMedia("(max-width: 1390px)").matches
+    //   ? 2
+    //   : 3,
+      responsive: [
+        {
+          breakpoint: 1390,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 2,
+            initialSlide: 2
+          }
+        },
+        {
+          breakpoint: 942,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ],
   };
 
   useEffect(() => {
@@ -258,18 +276,18 @@ const Home = () => {
 
       <hr></hr>
 
-      {/* show projects */}
-      <Box id="projects">
-        <Heading textAlign="center">
-          {" "}
-          <span className="themeText">Projects</span>
-        </Heading>
-        <Slider {...settings}>
-          {projects.map((project, i) => (
-            <ProjectCard key={PromiseRejectionEvent.id} {...project} />
-          ))}
-        </Slider>
-      </Box>
+     {/* show projects */}
+<Box id="projects">
+  <Heading textAlign="center">
+    {" "}
+    <span className="themeText">Projects</span>
+  </Heading>
+  <Slider {...settings}>
+    {projects.map((project, i) => (
+      <ProjectCard key={project.id} {...project} />
+    ))}
+  </Slider>
+</Box>
 
       <hr></hr>
 

@@ -400,7 +400,8 @@ p::selection {
   width: 40vw;
 }
 
-/* Technical Skills */
+/* Technical 
+ */
 #skills {
   margin-bottom: 50px;
   height: fit-content;
@@ -511,6 +512,7 @@ hr {
   margin-top: 50px;
   /* background-color: #1a202c; */
   background-color: #222324;
+  /* border: 5px solid red; */
 }
 
 #projects > h2:nth-child(1) {
@@ -520,7 +522,14 @@ hr {
 #projects > div:nth-child(2) {
   width: 80vw;
   margin: 50px auto;
+  /* border: 5px solid red; */
 }
+
+/* @media all and (max-width: 814px) {
+  #projects > div:nth-child(2) {
+    width: 70vw;
+  }
+} */
 
 /* Porject - card */
 .ProjectCard {
@@ -532,7 +541,19 @@ hr {
   height: 415px;
   background: #0000;
   overflow: hidden;
+  /* border: 5px solid blue; */
 }
+
+/* @media all and (max-width: 1322px) {
+  .ProjectCard {
+    width: 280px;
+}
+}
+@media all and (max-width: 1058px) {
+  .ProjectCard {
+    width: 220px;
+}
+} */
 .ProjectCard button {
     border-radius: 4px;
     /* background-color: #141431; */
@@ -542,6 +563,12 @@ hr {
     padding: 20px 15px;
     transition: all 0.5s;
     cursor: pointer;
+      /* border: 2px solid blue; */
+}
+@media all and (max-width: 1058px) {
+  .ProjectCard button {
+    padding: 10px 7px;
+}
 }
 .ProjectCard button:hover {
   background-color: #6c63ff !important;
@@ -936,6 +963,7 @@ hr {
   #projects > div:nth-child(2) {
     gap: 15px;
   }
+
 
   /* github-stats */
   .github-stats {

@@ -11,24 +11,21 @@ import {
 import React from "react";
 import { BiLinkExternal } from "react-icons/bi";
 import { VscGithub } from "react-icons/vsc";
-import snapdeal from "../Images/assets/snapdeal.png";
+// import snapdeal from "../Images/assets/snapdeal.png";
 
 const ProjectCard = ({
   title,
   type,
   image,
-  video,
-  description,
+   description,
   techStack,
   github,
   liveDemo,
-  project,
-}) => {
+  }) => {
   return (
     <Flex flexDirection="column" className="ProjectCard project-card">
       <Box className="cardImg" />
-      {/* <video src={video} autoPlay="autoplay" muted loop></video> */}
-      {/* <image src={image} alt="image"></image> */}
+      
       <img src={image} alt="iamge"/>
       {/* <image> src={image} alt="Img" </image> */}
       <Box>
