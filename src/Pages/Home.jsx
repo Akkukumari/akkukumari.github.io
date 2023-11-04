@@ -135,7 +135,7 @@ const Home = () => {
               </Heading>
             </Box>
             <Text>
-              I am a Full Stcak Web Developer passionate and experienced in
+              I am a Full Stack Web Developer passionate and experienced in
               building Web applications.
             </Text>
             <HStack

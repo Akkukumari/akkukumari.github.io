@@ -38,7 +38,7 @@ const ProjectCard = ({
           </Badge>
         </Flex>
         <Text className="project-tech-stack">
-          <span style={{ fontWeight: 700 }}>Tech Stacks:</span>{" "}
+          <span style={{ fontWeight: 700 }}  >Tech Stacks:</span>{" "}
           {techStack.join(", ")}
         </Text>
         <Text className="project-description">{description}</Text>

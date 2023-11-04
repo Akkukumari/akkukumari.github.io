@@ -543,7 +543,11 @@ hr {
   overflow: hidden;
   /* border: 5px solid blue; */
 }
-
+.project-tech-stack{
+  /* border: 5px solid blue; */
+  color:#6c63ff;
+  /* color:#ee0e7a; */
+}
 /* @media all and (max-width: 1322px) {
   .ProjectCard {
     width: 280px;

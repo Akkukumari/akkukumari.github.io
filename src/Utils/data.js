@@ -26,7 +26,7 @@ export const skills = [
     },
     {
         icon: "https://cdn-icons-png.flaticon.com/512/760/760457.png",
-        title: "react",
+        title: "React",
         tag: "frontend"
     },
     {
@@ -46,7 +46,7 @@ export const skills = [
     },
     {
         icon: "https://www.svgrepo.com/show/452093/redux.svg",
-        title: "redux",
+        title: "Redux",
         tag: "backend"
     },
     {
@@ -60,8 +60,8 @@ export const skills = [
         tag: "backend"
     },
     {
-        icon: "https://img.icons8.com/ios-glyphs/512/github.png",
-        title: "Github",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+        title: "Git",
         tag: "platform"
     },
     {
@@ -69,9 +69,14 @@ export const skills = [
         title: "VS Code",
         tag: "platform"
     },
+    // {
+    //     icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/New_Replit_Logo.svg/1200px-New_Replit_Logo.svg.png",
+    //     title: "Replit",
+    //     tag: "platform"
+    // },
     {
-        icon: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/New_Replit_Logo.svg/1200px-New_Replit_Logo.svg.png",
-        title: "Replit",
+        icon: "https://tse2.mm.bing.net/th?id=OIP.1c8I9YReJGG12MnzFs5ndAHaGl&pid=Api&P=0&h=220",
+        title: "Postman",
         tag: "platform"
     },
     {
@@ -80,8 +85,8 @@ export const skills = [
         tag: "platform"
     },
     {
-        icon: "https://img.icons8.com/ios-filled/512/codepen.png",
-        title: "CodePen",
+        icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg",
+        title: "Slack",
         tag: "platform"
     },
 
